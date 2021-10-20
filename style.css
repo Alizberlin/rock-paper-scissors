@@ -1,0 +1,41 @@
+header{
+    text-align: center;
+}
+.hero{
+    text-align: center;
+}
+.score-heading{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.score{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+.score p{
+    font-size: 2rem;
+}
+.game{
+    display: flex;
+    justify-content: space-around;
+    min-width: 20rem;
+    padding: 1rem;
+}
+.game i{
+    font-size: 3rem;
+    border: 2px solid black;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.game i:hover{
+    color: darkgrey;
+}
+.game i:active{
+    transform: translateY(2px);
+    box-shadow: 2px 12px 10px lightsalmon;
+}
